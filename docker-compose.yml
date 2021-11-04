@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  maven:
+    image: maven:3-jdk-11
+    volumes:
+      - .:/usr/local/workspace
+      - $HOME/.m2:/root/.m2
+    working_dir: /usr/local/workspace

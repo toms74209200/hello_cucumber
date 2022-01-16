@@ -28,6 +28,6 @@ public class Stepdefs {
 
     @Then("I should be told {string}")
     public void i_should_be_told(String expectedAnswer) {
-        assertThat(expectedAnswer).isEqualTo(expectedAnswer);
+        assertThat(actualAnswer).isEqualTo(expectedAnswer);
     }
 }

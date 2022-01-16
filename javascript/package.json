@@ -1,0 +1,28 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --color"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "jest": "^27.4.7",
+    "jest-cucumber": "^3.0.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.steps.js",
+      "**/*.steps.mjs"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "mjs"
+    ]
+  },
+  "type": "module"
+}

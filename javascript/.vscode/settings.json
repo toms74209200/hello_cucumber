@@ -1,0 +1,4 @@
+{
+    "editor.tabSize": 2,
+    "jest.jestCommandLine": "NODE_OPTIONS=--experimental-vm-modules npx jest --color"
+}

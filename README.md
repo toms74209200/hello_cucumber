@@ -1,6 +1,9 @@
-# java_hello_cucumber
+# hello_cucumber
 
-Cucumber 10 Minute Tutorial
+Cucumber 10 Minute Tutorial trial sample.
+
+- [Java](java)
+- [Javascript](javascript)
 
 ## Ref.
 
